@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+        'image-container right-container';
+    
+}
+
+.image-container {
+    grid-area: image-container;
+}
+
+.image {
+    height: 100%;
+}
+
+.right-container {
+    grid-area: right-container;
+    background-color: red;
+}
